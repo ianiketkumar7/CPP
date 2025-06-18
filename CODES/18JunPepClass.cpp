@@ -51,8 +51,8 @@ int main() {
     // for(int i = 1; i <= r; i++) {
     //     fact_r = i*fact_r;
     // }
-    // for(int i = 1; i <= n-r; i++) {     {NcR Example}
-    //     fact_n_r = i*fact_n_r;
+    // for(int i = 1; i <= n-r; i++) {     
+    //     fact_n_r = i*fact_n_r;           {NcR Example}   
     // }
     // for(int i = 1; i <= n; i++) {
     //     fact_n *= i;
@@ -61,5 +61,15 @@ int main() {
     // cout << ncr << endl;
 
 
-    
+    int n;
+    cout << "Enter value of n till which you are finding the squares: ";
+    cin >> n;
+    int a;
+    for(int i = 1; i <= n; i++) {
+        for(int j = i; j <= i; j++) {
+            a = j*j;
+            cout << a;
+        }
+        cout << " ";
+    }
 }
