@@ -1,12 +1,6 @@
-#include<iostream>
-#include<stdexcept>
-int main(){
-    int a = 10, b = 0;
-    try{
-        int c = a / b;
-        cout << "Result: " << c << endl;
-    }
-    catch(exception e){
-        cout << e.what();
-    }
-}
+int n;
+    // cout << "Enter your digit: ";
+    // cin >> n;
+    // for(int i = 1; i <= 10; i++) {
+    //     cout << n << " X " << i << " = " << n*i << endl;
+    // }
