@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a;
-    cin >> a;
-    cout << "Reversed number: " << a << endl;
+    int a$f;
+    cin >> a$f;
+    cout << "Reversed number: " << a$f << endl;
 
 }
