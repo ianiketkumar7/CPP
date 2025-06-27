@@ -88,15 +88,18 @@ int main() {
     int a, b, temp = 0;
     cout << "Enter value of a, b: ";
     cin >> a >> b;
+    // swaping using temp
     // temp = a;
     // a = b;
     // b = temp;
     // cout << "Value of a: " << a << " & " << "Value of b: " << b << " after swaping." << endl;
-    // a = b + 10;
-    // a = a - 10;
-    // b = a + 10;
-    // b = b - 10;
-    // cout << "Value of a: " << a << " & " << "Value of b: " << b << " after swaping." << endl;
+    
+    //swaping using (+, -) operators
+    a = b + a;
+    b = a - b;
+    a = a - b;
+    cout << "Value of a: " << a << " & " << "Value of b: " << b << " after swaping." << endl;
+
 
 
 }
