@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/samreshkumar/Desktop/C++/CODES",
-      "program": "/Users/samreshkumar/Desktop/C++/CODES/build/Debug/outDebug"
+      "cwd": "/Users/samreshkumar/Desktop/C++",
+      "program": "/Users/samreshkumar/Desktop/C++/build/Debug/outDebug"
     }
   ]
 }
