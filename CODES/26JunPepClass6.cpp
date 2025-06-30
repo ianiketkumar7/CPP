@@ -4,7 +4,8 @@ int main() {
     int arr[20][20], n;
     for(int i = 0; i < n; i++) {
         for(int j = 0; j >= i; j++) {
-            int a = arr[i] + arr[j];
+            int a = arr[i][j];
+            cout << a;
         }
     }
 }
