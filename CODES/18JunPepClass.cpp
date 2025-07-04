@@ -65,7 +65,7 @@ int main() {
     cout << "Enter value of n till which you are finding the squares: ";
     cin >> n;
     int a;
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i <= sizeof(n); i++) {
         for(int j = i; j <= i; j++) {
             a = j*j;
             cout << a;
