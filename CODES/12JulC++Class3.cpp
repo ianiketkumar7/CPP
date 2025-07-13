@@ -10,6 +10,7 @@ union AccountData {
     double depositAmount, withdrawAmount;   
 } data;
 };
+
 int main() {
 AccountData account;
 cin.getline(account.data.accountHolderName, 50);

@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
-void fact() {
-    int n, fact = 1;
-    cin >> n;
-    for(int i = 1; i <= n; i++) {
-        fact = fact * i;
-    }
-    cout << fact << endl;
-}
-int main() {
-    fact();
+union rectangle{
+    int x,y; // length, width
+};
+int main(){
+    rectangle r;
+    r.x=5;
+cout<<"The length of rectangle is "<<r.x<<" and the width is "<<r.y<<endl;
+    r.y=3; 
+cout<<"The length of rectangle is "<<r.x<<" and the width is "<<r.y<<endl;
 }

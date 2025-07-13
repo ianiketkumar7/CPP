@@ -3,9 +3,9 @@ using namespace std;
 
 class student {
     public:
-    int roll;
+    int roll;       // data members
     string name;   // data members
-    double marks;
+    double marks;   // data members
 
     void getdata() {                // member function
         cout << "Enter the values: ";

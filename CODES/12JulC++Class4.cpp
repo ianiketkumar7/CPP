@@ -2,11 +2,9 @@
 using namespace std;
 enum Direction {North = 1, South, East, West};
 int main() {
-    int d;
-    Navigator Direction;
-    cout << "Enter the direction: ";
-    cin >> d;
-    switch(d) {
+    Direction x;
+    
+    switch(x) {
         case 1:
         cout << "North" << endl;
         break;

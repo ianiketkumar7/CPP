@@ -4,8 +4,7 @@ class AddAmount {
     private:
     int a;
 
-    public:
-    
+    public:    
     void input() {
     cout << "Enter your amount: ";
     cin >> a;
