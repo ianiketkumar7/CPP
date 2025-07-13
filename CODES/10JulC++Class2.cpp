@@ -8,18 +8,17 @@ class student {
     double marks;
 
     void getdata() {                // member function
+        cout << "Enter the values: ";
         cin >> roll >> name >> marks;
     }
     void display(){                  // member function
-        cout << roll << endl;
-        cout << name << endl;
-        cout << marks;
+        cout << "Roll no: " << roll << endl;
+        cout << "Name: " << name << endl;
+        cout << "Marks: " << marks;
     }
 };
 int main() {
     student s;
-    s.name = "ssk";
-    cout << s.name;
     s.getdata();
     s.display();
 }
